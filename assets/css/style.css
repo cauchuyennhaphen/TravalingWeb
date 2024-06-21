@@ -1,18 +1,4 @@
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
- * #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -403,51 +389,6 @@ body { background: var(--white); }
   align-items: center;
   gap: 10px;
 }
-
-
-
-
-
-/*-----------------------------------*\
- * #TOUR SEARCH
-\*-----------------------------------*/
-
-.tour-search {
-  background: var(--bright-navy-blue);
-  padding-block: var(--section-padding);
-}
-
-.tour-search-form .input-label {
-  color: var(--white);
-  font-size: var(--fs-4);
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-
-.tour-search-form .input-field {
-  background: var(--white);
-  padding: 10px 15px;
-  font-size: var(--fs-5);
-  border-radius: 50px;
-}
-
-.tour-search-form .input-field::placeholder { color: var(--spanish-gray); }
-
-.tour-search-form .input-field::-webkit-datetime-edit {
-  color: var(--spanish-gray);
-  text-transform: uppercase;
-}
-
-.tour-search-form .input-wrapper { margin-bottom: 15px; }
-
-.tour-search .btn {
-  width: 100%;
-  --border-width: 1px;
-  font-weight: var(--fw-600);
-  margin-top: 35px;
-}
-
-
 
 
 
@@ -1029,6 +970,29 @@ address {
   .social-list { gap: 10px; }
 
 
+  /**
+  * LOCATION
+  */
+
+  .package-list { margin-bottom: 60px; }
+
+  .package-list > li:not(:last-child) { margin-bottom: 40px; }
+ 
+  .package-location {
+     
+     display: grid;
+     grid-template-columns: 2.0fr 2.0fr ;
+     justify-items: center;
+   }
+ 
+  .package-card .card-banner { height: 100%; }
+ 
+  .package-card .card-content { padding: 40px; }
+ 
+  .package-card .card-price {
+     display: grid;
+     place-content: center;
+   }
 
   /**
    * POPULAR

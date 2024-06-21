@@ -1,25 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tourly - Travel agancy</title>
-
-  <!-- 
-    - favicon
-  -->
+  <title>Tourly - Giới thiệu điểm đến du lịch bền vững </title>
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -28,11 +16,6 @@
 </head>
 
 <body id="top">
-
-  <!-- 
-    - #HEADER
-  -->
-
   <header class="header" data-header>
 
     <div class="overlay" data-overlay></div>
@@ -40,16 +23,16 @@
     <div class="header-top">
       <div class="container">
 
-        <a href="tel:+01123456790" class="helpline-box">
+        <a href="tel:+84###" class="helpline-box">
 
           <div class="icon-box">
             <ion-icon name="call-outline"></ion-icon>
           </div>
 
           <div class="wrapper">
-            <p class="helpline-title">For Further Inquires :</p>
+            <p class="helpline-title">Liên hệ để được tư vấn:</p>
 
-            <p class="helpline-number">+01 (123) 4567 90</p>
+            <p class="helpline-number">+84###</p>
           </div>
 
         </a>
@@ -86,7 +69,7 @@
 
           <li>
             <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
 
@@ -115,27 +98,31 @@
           <ul class="navbar-list">
 
             <li>
-              <a href="#home" class="navbar-link" data-nav-link>home</a>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
             </li>
 
             <li>
-              <a href="#" class="navbar-link" data-nav-link>about us</a>
+              <a href="#" class="navbar-link" data-nav-link>Location</a>
             </li>
 
             <li>
-              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+              <a href="#experience" class="navbar-link" data-nav-link>Experience</a>
             </li>
 
             <li>
-              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+              <a href="#tour" class="navbar-link" data-nav-link>Tour</a>
             </li>
 
             <li>
-              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+              <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
             </li>
 
             <li>
-              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+              <a href="#more" class="navbar-link" data-nav-link>More</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
             </li>
 
           </ul>
@@ -156,19 +143,15 @@
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
-
       <section class="hero" id="home">
         <div class="container">
 
-          <h2 class="h1 hero-title">Journey to explore world</h2>
+          <h2 class="h1 hero-title">Phát triển du lịch bền vững</h2>
 
           <p class="hero-text">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
-            voluptatibus habitant?
-            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+            Phát triển du lịch bền vữngcó ý nghĩa bảo tồn di sản thiên nhiên độc đáo,
+            đảm bảo lợi ích kinh tế lâu dài  
+            đồng thời nâng cao nhận thức về bảo vệ môi trường và trách nhiệm xã hội trong du lịch.
           </p>
 
           <div class="btn-group">
@@ -180,60 +163,66 @@
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #TOUR SEARCH
-      -->
-
-      <section class="tour-search">
+      <section class="package" id="tour">
         <div class="container">
 
-          <form action="" class="tour-search-form">
+          <p class="section-subtitle">Popular Packeges</p>
 
-            <div class="input-wrapper">
-              <label for="destination" class="input-label">Search Destination*</label>
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
 
-              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
-                class="input-field">
-            </div>
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
 
-            <div class="input-wrapper">
-              <label for="people" class="input-label">Pax Number*</label>
+          <ul class="package-list">
 
-              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
-            </div>
+            <li>
+              <div class="package-location">
 
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Checkin Date**</label>
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
 
-              <input type="date" name="checkin" id="checkin" required class="input-field">
-            </div>
+                <div class="card-content">
 
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Checkout Date*</label>
+                  <p class="card-text">
+                    
+                  </p>
 
-              <input type="date" name="checkout" id="checkout" required class="input-field">
-            </div>
+                </div>
 
-            <button type="submit" class="btn btn-secondary">Inquire now</button>
+                
+              </div>
+            </li>
 
-          </form>
+            <li>
+              <div class="package-location">
+
+                <div class="card-content">
+
+                  <p class="card-text">
+                    
+                  </p>
+
+                </div>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">View All Packages</button>
 
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #POPULAR
-      -->
-
-      <section class="popular" id="destination">
+      <section class="popular" id="experience">
         <div class="container">
 
           <p class="section-subtitle">Uncover place</p>
@@ -365,7 +354,7 @@
         - #PACKAGE
       -->
 
-      <section class="package" id="package">
+      <section class="package" id="tour">
         <div class="container">
 
           <p class="section-subtitle">Popular Packeges</p>
